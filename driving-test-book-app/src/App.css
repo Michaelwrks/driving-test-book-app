@@ -1,0 +1,53 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: green;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: green;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	margin-top: 107px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: black;
+	padding: 10px;
+	justify-items: center;
+	flex-grow: 20px;
+}
+
+.outer-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.container1,
+.container2,
+.container3 {
+	border: 1px solid grey;
+	background-color: white;
+	width: 50%;
+}
+
+.tile {
+}
+
+ul {
+	display: flex;
+	background-color: white;
+	list-style: none;
+	border: 1px solid black;
+	width: 100%;
+}
