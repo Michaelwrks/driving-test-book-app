@@ -1,0 +1,38 @@
+:root {
+	--page-bg: #fff8f0;
+	--panel-bg: rgba(255, 255, 255, 0.82);
+	--text-main: #172033;
+	--text-muted: #5f6b7c;
+	--accent-strong: #c2410c;
+	--accent-soft: #ea580c;
+	--accent-light: #fdba74;
+	--nav-hover: rgba(255, 237, 213, 0.95);
+}
+
+#root {
+	width: 100%;
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 1.5rem;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	font-family: "Aptos", "Trebuchet MS", "Segoe UI", sans-serif;
+	background:
+		radial-gradient(circle at top left, rgba(249, 115, 22, 0.2), transparent 22%),
+		radial-gradient(circle at top right, rgba(251, 191, 36, 0.16), transparent 18%),
+		linear-gradient(180deg, #fff7ed 0%, #fffaf5 45%, #fff 100%);
+	color: var(--text-main);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button,
+a {
+	-webkit-tap-highlight-color: transparent;
+}
