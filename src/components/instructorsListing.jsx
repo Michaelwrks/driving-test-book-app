@@ -1,11 +1,11 @@
 import "./Listing.css";
 import { Link, useParams } from "react-router-dom";
-import { instructors } from "../data/instructors";
+import { instructors } from "../../server/data/instructors";
 
 export const InstructorsListing = () => {
 	const { instructorId } = useParams();
 	const instructor = instructors.find(
-		(item) => item.id === Number.parseInt(instructorId, 10),
+		(item) => item.id === Number.parseInt(instructorId, 10)
 	);
 
 	if (!instructor) {

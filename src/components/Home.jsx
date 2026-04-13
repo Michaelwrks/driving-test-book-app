@@ -1,7 +1,7 @@
 import carPicture from "../assets/l-plates-1.jpg";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
-import { instructors } from "../data/instructors";
+import { instructors } from "../../server/data/instructors";
 
 export default function Home() {
 	const navigate = useNavigate();
@@ -90,11 +90,15 @@ export default function Home() {
 				<div className="steps-grid">
 					<article className="step-card">
 						<span>01</span>
-						<p>Tell us your area, your preferred date, and the kind of support you need.</p>
+						<p>
+							Tell us your area, your preferred date, and the kind of support you need.
+						</p>
 					</article>
 					<article className="step-card">
 						<span>02</span>
-						<p>Choose an instructor with pricing, location, and availability that fit.</p>
+						<p>
+							Choose an instructor with pricing, location, and availability that fit.
+						</p>
 					</article>
 					<article className="step-card">
 						<span>03</span>
